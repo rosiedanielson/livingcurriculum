@@ -12,9 +12,9 @@ scans.forEach(scan => {
     const x = Math.random() * maxX;
     const y = Math.random() * maxY;
 
-    scan.style.width = `${size}px`;
-    scan.style.height = `${size}px`;
-    scan.style.left = `${x}px`;
-    scan.style.top = `${y}px`;
+    scan.style.width = size + "px";
+    scan.style.height = size + "px";
+    scan.style.left = x + "px";
+    scan.style.top = y + "px";
 
 });
